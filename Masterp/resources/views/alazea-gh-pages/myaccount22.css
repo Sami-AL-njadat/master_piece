@@ -1,0 +1,173 @@
+/* Account Page Area */
+.account-page-area {
+    padding: 80px 0;
+  }
+  
+  .account-page-area .myaccount-tab-trigger {
+    display: block;
+  }
+  
+  @media (max-width: 991px) {
+    .account-page-area .myaccount-tab-trigger {
+      padding-bottom: 30px;
+    }
+  }
+  
+  .account-page-area .myaccount-tab-trigger li {
+    display: block;
+  }
+  
+  .account-page-area .myaccount-tab-trigger li:first-child {
+    margin-top: -1px;
+  }
+  
+  .account-page-area .myaccount-tab-trigger li a {
+    display: block;
+    background: #999999;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 20px;
+  }
+  
+  .account-page-area .myaccount-tab-trigger li a.active {
+    background: #70c745;
+    color: #ffffff;
+  }
+  
+  .account-page-area .myaccount-tab-trigger li a.active:hover {
+    color: #ffffff !important;
+  }
+  
+  .account-page-area .myaccount-tab-trigger li a:hover {
+    color: #70c745;
+  }
+  
+  .myaccount-tab-content {
+    border: 1px solid #e5e5e5;
+    padding: 30px;
+  }
+  
+  .myaccount-dashboard p {
+    margin-bottom: 20px;
+  }
+  
+  .myaccount-dashboard p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .myaccount-orders .table {
+    margin-bottom: 0;
+  }
+  
+  .myaccount-orders .table .account-order-id:hover {
+    color: #70c745;
+  }
+  
+  .myaccount-orders .table.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+  }
+  
+  .myaccount-orders .table td,
+  .myaccount-orders .table th {
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  @media (max-width: 767px) {
+    .myaccount-orders .table td,
+    .myaccount-orders .table th {
+      min-width: 180px;
+    }
+  }
+  
+  .myaccount-orders .small-title {
+    margin-bottom: 15px;
+  }
+  
+  /* My Account Form Style */
+  .uren-form,
+  .uren-form-boxed {
+    padding: 30px;
+    border-radius: 0;
+    border: 1px solid #e5e5e5;
+  }
+  
+  .uren-form .uren-form-inner,
+  .uren-form-boxed .uren-form-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -20px;
+  }
+  
+  @media (max-width: 479px) {
+    .uren-form .uren-form-inner,
+    .uren-form-boxed .uren-form-inner {
+      display: block;
+    }
+  }
+  
+  .uren-form .uren-form-inner .single-input,
+  .uren-form-boxed .uren-form-inner .single-input {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 479px) {
+    .uren-form .uren-form-inner .single-input,
+    .uren-form-boxed .uren-form-inner .single-input {
+      max-width: 100% !important;
+    }
+  }
+  
+  .uren-form .uren-form-inner .single-input.single-input-half,
+  .uren-form-boxed .uren-form-inner .single-input.single-input-half {
+    flex: 0 0 calc(50% - 15px);
+    max-width: calc(50% - 15px);
+  }
+  
+  .uren-form .uren-form-inner .single-input label,
+  .uren-form-boxed .uren-form-inner .single-input label {
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .uren-form .uren-form-inner .single-input input,
+  .uren-form .uren-form-inner .single-input select,
+  .uren-form .uren-form-inner .single-input textarea,
+  .uren-form-boxed .uren-form-inner .single-input input,
+  .uren-form-boxed .uren-form-inner .single-input select,
+  .uren-form-boxed .uren-form-inner .single-input textarea {
+    padding: 0 15px;
+    border: 1px solid #e5e5e5;
+    height: 40px;
+    width: 100%;
+  }
+  
+  .uren-form .uren-form-inner .single-input input:first-child,
+  .uren-form-boxed .uren-form-inner .single-input input:first-child {
+    margin-top: 20px;
+  }
+  
+  .uren-form .uren-form-inner .single-input .checkbox-input,
+  .uren-form-boxed .uren-form-inner .single-input .checkbox-input {
+    display: inline-block;
+  }
+  
+  .uren-form .uren-form-inner .single-input .checkbox-input label,
+  .uren-form-boxed .uren-form-inner .single-input .checkbox-input label {
+    display: inline-block;
+  }
+  
+  .uren-form .uren-form-inner a,
+  .uren-form-boxed .uren-form-inner a {
+    font-size: 13px;
+  }
+  
+  .uren-form .uren-form-inner a:hover,
+  .uren-form-boxed .uren-form-inner a:hover {
+    color: #70c745;
+  }
+  

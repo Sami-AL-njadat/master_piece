@@ -1,0 +1,36 @@
+.icon-hover-primary:hover {
+  border-color: #3b71ca !important;
+  background-color: white !important;
+}
+
+.icon-hover-primary:hover i {
+  color: #3b71ca !important;
+}
+.icon-hover-danger:hover {
+  border-color: #dc4c64 !important;
+  background-color: white !important;
+}
+
+.icon-hover-danger:hover i {
+  color: #dc4c64 !important;
+}
+#plus,
+#minus{
+cursor: pointer;
+margin: 0 10px;
+}
+.counter{
+      /* height: 31%; */
+
+border: 1px solid #0c2a5c;  
+display: flex;
+justify-content: center;
+}
+.error{
+  color: red;
+  width: 100%;
+}
+.suc{
+  color: green;
+  width: 100%;
+}
